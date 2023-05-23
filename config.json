@@ -21,15 +21,15 @@
       "action": "add",
       "args": {
         "name": "cn",
-        "uri": "https://raw.githubusercontent.com/DustinWin/clash-geoip/master/IPs/ChinaMax_IP.txt"
+        "uri": "https://raw.githubusercontent.com/heganyuliang/clash-geoip/master/IPs/ChinaMax_IP.txt"
       }
     },
     {
       "type": "text",
       "action": "add",
       "args": {
-        "name": "lanip",
-        "uri": "https://raw.githubusercontent.com/DustinWin/clash-geoip/master/IPs/Lan_IP.txt"
+        "name": "private",
+        "uri": "https://raw.githubusercontent.com/heganyuliang/clash-geoip/master/IPs/Lan_IP.txt"
       }
     },
     {
@@ -47,7 +47,7 @@
       "action": "output",
       "args": {
         "outputName": "geoip.dat",
-        "wantedList": ["cn", "lanip", "telegram"]
+        "wantedList": ["cn", "private", "telegram"]
       }
     },
     {
@@ -55,7 +55,7 @@
       "action": "output",
       "args": {
         "outputName": "Country.mmdb",
-        "wantedList": ["cn", "lanip", "telegram"]
+        "wantedList": ["cn", "private", "telegram"]
       }
     },
     {
